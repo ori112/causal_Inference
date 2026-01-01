@@ -1,16 +1,16 @@
 # Causal Inference: Impact of Job Training on Earnings
 ### *A Robust Analysis of the Lalonde Dataset using Microsoft DoWhy*
 
-## 📌 Project Overview
+## Project Overview
 This project applies **causal inference** to determine the true impact of the National Supported Work (NSW) job training program on future earnings. Using the classic **Lalonde dataset**, I moved beyond simple correlation to isolate the "Causal Effect" by identifying and blocking confounders using the **Backdoor Criterion**.
 
-## 🛠️ Technical Stack
+## Technical Stack
 * **Language:** Python 3.12 (Environment managed via `uv`).
 * **Framework:** Microsoft `DoWhy`.
 * **Libraries:** `Pandas`, `Matplotlib`, `Seaborn`, `Scipy.stats`.
 
 ---
-## 🧪 The Causal Pipeline
+## The Causal Pipeline
 followed the structured 4-step causal inference pipeline:
 
 1.  **Modeling:** Built a **Directed Acyclic Graph (DAG)** to explicitly map causal assumptions, defining relationships between Treatment (`treat`), Outcome (`re78`), and Confounders.
@@ -21,7 +21,7 @@ followed the structured 4-step causal inference pipeline:
 
 ---
 
-## 📊 Key Findings
+## Key Findings
 
 ### 1. Covariate Imbalance (The Bias)
 The **Standardized Mean Difference (SMD)** analysis proved that participants were not chosen at random:
