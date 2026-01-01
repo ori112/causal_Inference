@@ -1,5 +1,5 @@
 # Causal Inference: Impact of Job Training on Earnings
-### *A Robust Analysis of the Lalonde Dataset using Microsoft DoWhy*
+### *An Analysis of the Lalonde Dataset using Microsoft DoWhy*
 
 ## Project Overview
 This project applies **causal inference** to determine the true impact of the National Supported Work (NSW) job training program on future earnings. Using the classic **Lalonde dataset**, I moved beyond simple correlation to isolate the "Causal Effect" by identifying and blocking confounders using the **Backdoor Criterion**.
