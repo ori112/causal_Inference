@@ -5,7 +5,7 @@
 This project applies **causal inference** to determine the true impact of the National Supported Work (NSW) job training program on future earnings. Using the classic **Lalonde dataset**, I moved beyond simple correlation to isolate the "Causal Effect" by identifying and blocking confounders using the **Backdoor Criterion**.
 
 ## Technical Stack
-* **Language:** Python 3.12 (Environment managed via `uv`).
+* **Language:** Python (Environment managed via `uv`).
 * **Framework:** Microsoft `DoWhy`.
 * **Libraries:** `Pandas`, `Matplotlib`, `Seaborn`, `Scipy.stats`.
 
